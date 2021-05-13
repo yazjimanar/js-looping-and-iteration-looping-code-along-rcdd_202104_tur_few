@@ -1,14 +1,17 @@
-// Code your solutions in this file
-const writeCards1 = ["Ada", "Brendan", "Ali"];
-const card1 =[] ;
-function writeCards(card)
-{
-    for (let i = 0; i < card.length ; i++) {
-      card1.push (  `Thank you ${card[i]}, for the wonderful birthday gift!`);
-          }
-            //   return card;
-              return card1;
+const writeCards1 =(["Ada", "Brendan", "Ali"], "birthday");function writeCards(array, string){
+    const newArray = []
+    for(let i = 0 ; i < array.length; i++){
+    newArray.push(`Thank you, ${array[i]}, for the wonderful ${string} gift!`);
+    }
+    return newArray;
+}
+writeCards(writeCards1);
 
+
+function countdown(number){
+    while (number >= 0){
+    console.log(number--)
+    }
 }
 
-writeCards(writeCards1);
+countdown(10);
