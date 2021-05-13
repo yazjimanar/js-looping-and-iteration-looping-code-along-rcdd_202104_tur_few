@@ -1,5 +1,5 @@
 // Code your solutions in this file
-const card = ["Lisa", "Kaitlin","Jan"];
+writeCards(["Ada", "Brendan", "Ali"], "birthday");
 
 function writeCards(card)
 {
