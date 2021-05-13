@@ -9,4 +9,4 @@ function writeCards(card)
 
 }
 
-writeCards(card)
+writeCards(card);
